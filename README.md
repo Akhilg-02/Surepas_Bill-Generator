@@ -24,7 +24,7 @@ Password : password
 ## 🛠️ Project Structure
 
 ```
-/Catalog-Application
+/Application
 │
 ├── /root_dir.               # Frontend (React)
 │   ├── /public
