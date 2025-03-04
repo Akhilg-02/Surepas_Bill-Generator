@@ -1,12 +1,53 @@
-# React + Vite
+## 🎨 Frontend Setup (ReactJS + Material-UI)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### **1️⃣ Install Dependencies**
+Navigate to the root directory and install dependencies:
 
-Currently, two official plugins are available:
+```
+cd root_dir.
+npm install
+```
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### **2️⃣ Start the Frontend**
 
-## Expanding the ESLint configuration
+```
+npm start
+```
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### **3️⃣ Demo Credentials**
+```
+Username : admin@example.com
+Password : password
+```
+
+
+## 🛠️ Project Structure
+
+```
+/Catalog-Application
+│
+├── /root_dir.               # Frontend (React)
+│   ├── /public
+│   ├── /src
+│   │   ├── /components      # Reusable components
+│   │   │   ├── BillGenerator.jsx
+│   │   │   ├── BillItems.jsx
+│   │   │   ├── CustomerList.jsx
+│   │   │   ├── DownloadInvoice.jsx
+│   │   ├── /pages           # Page components
+│   │   │   ├── Dashboard.jsx
+│   │   │   ├── Drawer.jsx
+│   │   │   ├── CustomerList.jsx
+│   │   │   ├── Login.jsx
+│   |   ├── /store
+│   │   ├── /slices
+│   │   │   ├── authSlice.js
+│   │   │   ├── billSlice.js
+│   │   │   ├── customerSlice.js
+│   │   ├── store.jsx
+│   │   ├── App.js
+│   │   ├── index.js
+│   ├── package.json
+           # Project documentation
+
+```
