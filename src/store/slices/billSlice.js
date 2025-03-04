@@ -21,7 +21,7 @@ const initialState = {
     note: "",
     status: "Draft",
     subTotal: 0,
-    taxRate: 19,
+    taxRate: 9,
     taxAmount: 0,
     totalAmount: 0,
   },
@@ -87,7 +87,7 @@ const billSlice = createSlice({
         note: "",
         status: "Draft",
         subTotal: 0,
-        taxRate: 19,
+        taxRate: 9,
         taxAmount: 0,
         totalAmount: 0,
       }

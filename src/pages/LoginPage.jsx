@@ -118,7 +118,7 @@ const LoginPage = () => {
               onChange={handleChange}
               error={Boolean(error)}
               helperText={error}
-              InputProps={{
+              slotProps={{
                 endAdornment: (
                   <InputAdornment position="end">
                     <IconButton
